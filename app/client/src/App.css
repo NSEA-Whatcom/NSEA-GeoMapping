@@ -1,0 +1,23 @@
+.marker-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.marker-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+td span{
+  display: inline-block;
+}
+
+.buffer{
+  padding-top: 5%;
+}
+
+#err-msg {
+  color: red;
+  text-align: center;
+}

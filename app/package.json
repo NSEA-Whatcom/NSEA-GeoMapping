@@ -1,0 +1,31 @@
+{
+  "name": "nsea-backend",
+  "version": "1.0.0",
+  "description": "nsea backend ",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "joi": "^17.1.1",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CooperZA/NSEA-GeoMapping.git"
+  },
+  "author": "Zach Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CooperZA/NSEA-GeoMapping/issues"
+  },
+  "homepage": "https://github.com/CooperZA/NSEA-GeoMapping#readme"
+}
