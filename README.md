@@ -34,19 +34,15 @@ When logged into NSEA-Whatcom github, you can either continue to work on this pr
 ### Step 5: Need to download node_modules to some files. 
 
 Go into the app folder
-
 ````cd app````
 
-Download node_modules
-
+Download node_modules \n
 ````npm install````
 
 Go into app/client folder
-
 ````cd client````
 
 Download node_moduels in that folder aswell
-
 ````npm install````
 
 ### Step 6: Connect to MongoDB and add in your IP address
