@@ -71,6 +71,7 @@ function sendToDb(json){
             Longitude: parseFloat(obj.Longitude),
             ProjectDescription: obj.ProjectDescription,
             ProjectUrl: obj.ProjectUrl,
+            Year: obj.Year
         }
     
         console.log(project);

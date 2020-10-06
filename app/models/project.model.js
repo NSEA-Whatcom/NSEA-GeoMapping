@@ -12,6 +12,7 @@ const projectSchema = new Schema({
     Longitude: { type: Number, required: true, trim: true },
     ProjectDescription: { type: String, required: true },
     ProjectUrl: { type: String, required: false, trim: true },
+    Year: {type: Number, required: false}
     // FunFact: { type: String, required: true },
     // FishType: { type: String, required: true, trim: true },
 });

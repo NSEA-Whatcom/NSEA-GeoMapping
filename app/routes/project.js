@@ -23,6 +23,7 @@ router.route('/add').post((req, res) => {
     const FunFact = String(req.body.FunFact);
     const FishType = String(req.body.FishType);
     const ProjectUrl = String(req.body.ProjectUrl);
+    const Year = Number(req.body.Year);
 
     // create new project
     // must give project obj variable names that correspond to its schema names
@@ -34,7 +35,8 @@ router.route('/add').post((req, res) => {
         ProjectDescription,
         FunFact,
         FishType,
-        ProjectUrl
+        ProjectUrl,
+        Year
     });
 
     newProject.save()
@@ -55,6 +57,7 @@ router.route('/edit/:id').post((req, res) => {
             project.FunFact = req.body.FunFact;
             project.FishType = req.body.FishType;
             project.ProjectUrl = req.body.ProjectUrl;
+            project.Year = Number(req.body.Year);
 
             // save project
             project.save()
