@@ -6,7 +6,8 @@
             "Latitude": "48.959",
             "Longitude": "-122.6682",
             "ProjectDescription": "Installed 5 Large Woody Debris",
-            "ProjectUrl": ""
+            "ProjectUrl": "",
+            "Year": "9999"
         },
         {
             "ProjectType": "LargeWoodyDebris",
@@ -14,7 +15,8 @@
             "Latitude": "48.965408",
             "Longitude": "-122.50964",
             "ProjectDescription": "Large Woody Debris Placement",
-            "ProjectUrl": ""
+            "ProjectUrl": "",
+            "Year":"8888"
         },
         {
             "ProjectType": "FishPassageBarrier",
