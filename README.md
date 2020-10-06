@@ -55,24 +55,20 @@ Click on the Green "Add IP Address" button, then add in your ID address. (They h
 
 ### Step 7: Add your .env files
 
-In your app file, create a file named .env
-
+In your app file, create a file named .env  
 Paste in the 6 lines of code to this .env file. You can find the 6 lines of code in the documentation file that was sent to you.
 
-In your app/client file, create a file named .env
-
+In your app/client file, create a file named .env  
 Paste in the 2 lines of code to this .env file. You can find the 2 lines of code in the documentation file that was sent to you.
 
 ### Step 8: Run the project
 
 You will need to open up 2 seperate terminals for this. Open a terminal in your app folder, then open a file in your app/client folder.
 
-In the app folder, run the command ````nodemon server````
-
+In the app folder, run the command ````nodemon server````  
 Note: If you get an error running the above command, try using  ````npx nodemon```` instead. If both don't work, double check to see if you have nodemon downloaded.
 
-In the app/client folder, run the command ````npm start````
-
+In the app/client folder, run the command ````npm start````  
 Note: If you get an error running the above command, delete the node_modules folder in app/client folder. Then reinstall them by typing in ````npm install````, then do ````npm start```` command.
 
 When both your terminals have accepted the command inputs. A lcoalhost webrowser will show up in your search browser with the map.
