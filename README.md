@@ -1,19 +1,19 @@
 # NSEA-GeoMapping Project
 Interactive map for the Nooksack Salmon Enhancement Association primary website.
 
-# Application 
+## Application 
 To view project application, look under the app folder. 
 
-# Documentation 
+## Documentation 
 To view project documentation, look under the documentation folder. 
 
-# Contributors
+## Contributors
 Zach Cooper Github: CooperZA (zach@raincitysolutions.com) Developer
 Juniper Still Github: stillj2 (junistill@gmail.com) Designer
 Taichen Rose Github: willsower (jatr812@gmail.com) Developer
 Email for questions about the project or the codebase
 
-# Application Setup
+## Application Setup
 This application setup assumes you know the basics of using a bash terminal. Codeblocks below will be examples of what you would use in the terminal. If you don't know how to use a bash terminal, this guide will do it's best to make sure you have what you need.
 
 ### Step 1: Download Node.js and Git to your computer 
