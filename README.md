@@ -1,12 +1,6 @@
 # NSEA-GeoMapping Project
 Interactive map for the Nooksack Salmon Enhancement Association primary website.
 
-## Application 
-To view project application, look under the app folder. 
-
-## Documentation 
-To view project documentation, look under the documentation folder. 
-
 ## Contributors
 Zach Cooper | Github: CooperZA | (zach@raincitysolutions.com) | Developer
 
