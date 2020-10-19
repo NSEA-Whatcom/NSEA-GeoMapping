@@ -23,6 +23,7 @@ const Project = props => (
         <td>{props.project.Longitude}</td>
         <td>{props.project.ProjectDescription}</td>
         <td>{props.project.ProjectUrl}</td>
+        <td>{props.project.Year}</td>
         {/* <td>{ props.project.FunFact }</td>
         <td>{ props.project.FishType }</td> */}
         <td>
