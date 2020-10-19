@@ -1,5 +1,5 @@
 ﻿ProjectType,PlaceName,Latitude,Longitude,ProjectDescription,ProjectUrl,Year,
-LargeWoodyDebris,Dakota,48.959,-122.6682,Installed 5 Large Woody Debris,
+LargeWoodyDebris,Dakota,48.959,-122.6682,Installed 5 Large Woody Debris,9999,
 LargeWoodyDebris,Bertrand,48.965408,-122.50964,Large Woody Debris Placement,
 FishPassageBarrier,Tenmile,48.863199,-122.434536,Channel relocation and Large Woody Debris placement,
 FishPassageBarrier,Nooksack Tributary,48.87928,-122.55587,Replaced barrier culvert with 25' x 14' bridge,

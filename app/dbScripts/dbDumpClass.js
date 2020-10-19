@@ -68,15 +68,15 @@ class DbUpdate {
     }
 }
 
-// csvToRead = 'project.txt';
+csvToRead = 'project.txt';
 
-// const db = new DbUpdate(csvToRead);
+const db = new DbUpdate(csvToRead);
 
-// let parsedCsv = db.csvToJson();
+let parsedCsv = db.csvToJson();
 
-// db.writeToJsonFile(jsonOut, parsedCsv);
+db.writeToJsonFile(jsonOut, parsedCsv);
 
-// db.sendToDb(parsedCsv);
+db.sendToDb(parsedCsv);
 
 // db.deleteAllFromDb();
 
