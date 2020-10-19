@@ -150,7 +150,7 @@ class Map extends Component{
                             <div>
                                 <h3>{this.state.SelectedProject.PlaceName}</h3>
                                 <p>{this.state.SelectedProject.ProjectDescription}</p>
-                    <a href={this.state.SelectedProject.ProjectUrl} rel="noopener noreferrer" target="_blank">{this.state.SelectedProject.ProjectUrl}</a><p>{this.state.SelectedProject.Year}</p>
+                    <a href={this.state.SelectedProject.ProjectUrl} rel="noopener noreferrer" target="_blank">{this.state.SelectedProject.ProjectUrl}</a><p>Project Date: 2016</p>
                             </div>
                         </Popup>
                     ) : null}
