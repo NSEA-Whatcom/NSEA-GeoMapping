@@ -94,6 +94,7 @@ class ProjectList extends Component {
                                 <th>Project Description</th>
                                 <th>Project Url</th>
                                 <th>Actions</th>
+                                <th>Year</th>
                                 {/* <th>Fun Fact</th>
                             <th>Fish Type</th> */}
                             </tr>

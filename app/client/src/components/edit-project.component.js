@@ -18,6 +18,7 @@ class EditProject extends Component {
         this.onChangeLongitude = this.onChangeLongitude.bind(this);
         this.onChangeProjectDescription = this.onChangeProjectDescription.bind(this);
         this.onChangeProjectUrl = this.onChangeProjectUrl.bind(this);
+        this.onChangeYear = this.onChangeYear.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
         // this.onChangeFunFact = this.onChangeFunFact.bind(this);
         // this.FishType = this.onChangeFishType.bind(this);
@@ -31,6 +32,7 @@ class EditProject extends Component {
             ProjectDescription: '',
             ProjectUrl: '',
             ProjectTypeArr: [],
+            Year: ''
             // FunFact: '',
             // FishType: '',
             // FishTypeArr: []
@@ -46,6 +48,7 @@ class EditProject extends Component {
                     Latitude: res.data.Latitude,
                     Longitude: res.data.Longitude,
                     ProjectDescription: res.data.ProjectDescription,
+                    Year: res.data.Year,
                     // FunFact: res.data.FunFact,
                     // FishType: res.data.FishType,
                     ProjectUrl: res.data.ProjectUrl
@@ -114,6 +117,12 @@ class EditProject extends Component {
         });
     }
 
+    onChangeYear(e) {
+        this.setState({
+            Year: e.target.value
+        })
+    }
+
     // onChangeFunFact(e){
     //     this.setState({
     //        FunFact: e.target.value
@@ -141,6 +150,7 @@ class EditProject extends Component {
             Latitude: parseFloat(this.state.Latitude),
             Longitude: parseFloat(this.state.Longitude),
             ProjectDescription: this.state.ProjectDescription,
+            Year: this.state.Year,
             // FunFact: this.state.FunFact,
             // FishType: this.state.FishType,
             ProjectUrl: this.state.ProjectUrl
@@ -214,6 +224,17 @@ class EditProject extends Component {
                                 className="form-control"
                                 value={this.state.ProjectDescription}
                                 onChange={this.onChangeProjectDescription}
+                            />
+                        </div>
+
+                        <div className="form-group">
+                            <label>Year</label>
+                            <input
+                                type="text"
+                                required
+                                className="form-control"
+                                value={this.state.Year}
+                                onChange={this.onChangeYear}
                             />
                         </div>
 
